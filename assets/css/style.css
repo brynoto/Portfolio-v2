@@ -3,7 +3,7 @@ body,
 header,
 #intro {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 #intro {
@@ -45,6 +45,10 @@ img {
 
 .about {
 	text-align: justify;
+}
+
+.lead {
+	
 }
 
 iframe {
