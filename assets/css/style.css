@@ -285,3 +285,10 @@ ul li:hover .slider p {
   }
 }
 
+@media (min-width: 420px) {
+  h3 {
+  	margin-left: -150px;
+  }
+}
+
+
