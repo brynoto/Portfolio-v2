@@ -37,41 +37,29 @@
                 </button>
 
                 <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="basicExampleNav">
+                <div class="collapse navbar-collapse" id="nav">
 
                     <!-- Links -->
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" href="#intro">Home</a>
+                            <a class="nav-link" href="#intro"><p id="navtext">Home</p></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about"><p id="navtext">About</p></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" href="#skills"><p id="navtext">Skills</p></a>
                         </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link" href="#projects"><p id="navtext">Projects</p></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact"><p id="navtext">Contact</p></a>
                         </li>
                     </ul>
                     <!-- Links -->
 
-                    <!-- Social Icon  -->
-                    <ul class="navbar-nav nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/bryan.noto" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/nicebry/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-
+                
                 </div>
                 <!-- Collapsible content -->
 
@@ -99,7 +87,7 @@
                     <hr class="hr-light">
 
                     <!-- Description -->
-                    <h4 class="white-text my-4">You're in the right place.</h4>
+                    <h4 class="white-text my-4">Your in the right place.</h4>
 
                 </div>
 
@@ -114,6 +102,42 @@
 
 <!--Main layout-->
 <main class="mt-5">
+
+    <div class="wrapper">
+  <ul>
+    <li class="facebook">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <div class="slider">
+        <p><a href="https://www.facebook.com/bryan.noto" target="_blank"></a>Facebook</p>
+      </div>
+    </li>
+    
+    
+    <li class="instagram">
+      <i class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/nicebry/"></i>
+      <div class="slider">
+        <p>instagram</p>
+      </div>
+    </li>
+    
+    <li class="google">
+      <i class="fa fa-google" aria-hidden="true"></i>
+      <div class="slider">
+        <p>google</p>
+      </div>
+    </li>
+    
+    <li class="whatsapp">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <div class="slider">
+        <p>whatsapp</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
     <div class="container">
 
         <!--Section: Best Features-->
@@ -124,7 +148,6 @@
               <!-- Heading -->
        <h2 class="mb-5 font-weight-bold" id="about">About me</h2>
         <img src="assets/img/head.png" id="head">
-        <h2 class="display-5">Rhey Bryan Noto</h2>
               <!--Grid row-->
       <div class="row d-flex justify-content-center mb-4">
 
@@ -193,7 +216,7 @@
     <h2 class="mb-5 font-weight-bold" id="skills">Skills</h2> 
     <div class="col-md-8">
       <ul id="bar">
-            <li id="iphone">
+            <li id="photoshop">
                 <div class="top">
                     <img src="assets/img/ps.jpg" alt="Photoshop"/>
                 </div>
@@ -203,7 +226,7 @@
                     </div>
                 </div>
             </li>
-            <li id="macbook">
+            <li id="html">
                 <div class="top">
                     <img src="assets/img/html.jpg" alt="HTML" />
                 </div>
@@ -213,7 +236,7 @@
                     </div>
                 </div>
             </li>
-            <li id="ipod">
+            <li id="css">
                 <div class="top">
                     <img src="assets/img/css.jpg" alt="CSS" />
                 </div>
@@ -223,6 +246,54 @@
                     </div>
                 </div>
             </li>
+
+
+            <li id="php">
+                <div class="top">
+                    <img src="assets/img/php.jpg" alt="PHP" />
+                </div>
+                <div class="bottom">
+                    <div class="infobox">
+                        <h3>PHP</h3>
+                    </div>
+                </div>
+            </li>
+
+             <li id="javascript">
+                <div class="top">
+                    <img src="assets/img/js.png" alt="Javascript" />
+                </div>
+                <div class="bottom">
+                    <div class="infobox">
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+            </li>
+
+             <li id="jquery">
+                <div class="top">
+                    <img src="assets/img/jquery.jpg" alt="jQuery" />
+                </div>
+                <div class="bottom">
+                    <div class="infobox">
+                        <h3>jQuery</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li id="laravel">
+                <div class="top">
+                    <img src="assets/img/laravel.png" alt="Laravel" />
+                </div>
+                <div class="bottom">
+                    <div class="infobox">
+                        <h3>Laravel</h3>
+                    </div>
+                </div>
+            </li>
+
+
+
 
     </div> <!-- end col -->
 </div>
@@ -247,6 +318,20 @@
                 <iframe class="embed-responsive-item" scrolling="no" src="https://brynoto.github.io/Capstone/"></iframe>
             </div>
         </div>
+
+          <div class="col-md-6">
+            <a href="https://peenoise-dota-2-store.000webhostapp.com/" target="_blank"><h4 class="my-4 font-weight-bold">Peenoise Dota 2 E-Commerce Website</h4>
+            <div class="embed-responsive embed-responsive-16by9 hoverable" >
+                <iframe class="embed-responsive-item" scrolling="no" src="https://peenoise-dota-2-store.000webhostapp.com/"></iframe>
+            </div>
+        </div>
+
+         <div class="col-md-6">
+            <a href="https://pinoyecosport.000webhostapp.com" target="_blank"><h4 class="my-4 font-weight-bold">Pinoy Ecosport Blog</h4></a>
+            <div class="embed-responsive embed-responsive-16by9 hoverable">
+                <iframe class="embed-responsive-item" scrolling="no" src="https://pinoyecosport.000webhostapp.com/"></iframe>
+            </div>
+        </div>
     </div>
 
 
@@ -264,7 +349,7 @@
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-5">Contact me</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. My secretary will come back to you within matter of hours to help you.</p>
+    <p class="text-center w-responsive mx-auto mb-5">For inquiries, kindly fill up the form below.</p>
 
     <div class="row">
 
@@ -325,7 +410,7 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn btn-primary" href="#">Send</a>
             </div>
             <div class="status"></div>
         </div>
@@ -357,42 +442,6 @@
 
 <!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4 fixed-bottom">
-
-    <!-- Footer Elements -->
-    <div class="container">
-
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/bryan.noto" target="_blank">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fa fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fa fa-google-plus"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <i class="fa fa-linkedin"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fa fa-dribbble"> </i>
-          </a>
-        </li>
-      </ul>
-      <!-- Social buttons -->
-
-    </div>
-    <!-- Footer Elements -->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
